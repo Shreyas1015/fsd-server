@@ -1,5 +1,5 @@
 require("dotenv").config();
-const allowedOrigins = [process.env.CORS_URL];
+const allowedOrigins = "https://fsd-client.vercel.app";
 
 const corsOptions = {
   origin: (origin, callback) => {
